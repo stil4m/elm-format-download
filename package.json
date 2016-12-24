@@ -1,0 +1,22 @@
+{
+  "name": "elm-format-download",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "elm-format-download": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^3.0.4",
+    "command-line-usage": "^3.0.8",
+    "download": "^5.0.2",
+    "tar-fs": "^1.15.0",
+    "tar.gz": "^1.0.5",
+    "unzip": "^0.1.11"
+  }
+}
