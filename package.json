@@ -1,13 +1,21 @@
 {
   "name": "elm-format-download",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Simple downloader for the elm-format binaries",
   "main": "./bin/index.js",
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "github.com/substack/node-browserify"
+  },
   "bin": {
     "elm-format-download": "./bin/index.js"
   },
-  "author": "Mats Stijlaart",
+  "author": {
+    "name": "Mats Stijlaart",
+    "email": "mstijlaart@gmail.com",
+    "url": "https://github.com/stil4m"
+  },
   "license": "ISC",
   "dependencies": {
     "command-line-args": "^3.0.4",

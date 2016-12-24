@@ -21,7 +21,7 @@ const optionDefinitions = [{
     name: 'target',
     alias: 't',
     type: String,
-    description: 'A folder to store elm-format and the archive. Defaults to ./elm-format'
+    description: 'A folder to store elm-format and the archive. Defaults to the location `./node_modules/elm-format-download/downloads`.'
 }, {
     name: 'platform',
     alias: 'p',
