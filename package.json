@@ -1,15 +1,13 @@
 {
   "name": "elm-format-download",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "0.1.0",
+  "description": "Simple downloader for the elm-format binaries",
+  "main": "./bin/index.js",
+  "scripts": {},
   "bin": {
     "elm-format-download": "./bin/index.js"
   },
-  "author": "",
+  "author": "Mats Stijlaart",
   "license": "ISC",
   "dependencies": {
     "command-line-args": "^3.0.4",
