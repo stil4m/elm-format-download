@@ -2,6 +2,8 @@
 
 Simple downloader for the elm-format binaries
 
+Note: This package will be deprecated once `elm-format` is directly installable from `npmjs`.
+
 ## How to use:
 
 Install with:
