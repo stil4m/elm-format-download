@@ -1,4 +1,6 @@
-> Note: This package will be deprecated once `elm-format` is directly installable from `npmjs`.
+# DEPRECATED
+
+> This package is be deprecated due to that `elm-format` is installable from `npmjs`: [https://www.npmjs.com/package/elm-format](https://www.npmjs.com/package/elm-format).
 
 # elm-format-download
 
