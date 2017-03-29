@@ -9,6 +9,7 @@ const allowedElmVersions = ['0.16', '0.17', '0.18'];
 
 // Should this be more?
 const allowedVersions = [
+    '0.6.0-alpha',
     '0.5.2-alpha',
     '0.5.1-alpha',
     '0.5.0-alpha',
@@ -36,7 +37,7 @@ const optionDefinitions = [{
     name: 'version',
     alias: 'v',
     type: String,
-    description: 'The version of elm-format that should be downloaded. Defaults to 0.5.2-alpha'
+    description: 'The version of elm-format that should be downloaded. Defaults to 0.6.0-alpha'
 },{
   name: 'help',
   description: 'Print this usage guide.'
@@ -63,7 +64,7 @@ const config = {
     platform: options.platform || getDefaultPlatform(),
     target: options.target || (__dirname + '/../downloads'),
     elmVersion: options['elm-version'] || '0.18',
-    version: options['version'] || '0.5.2-alpha',
+    version: options['version'] || '0.6.0-alpha',
 };
 
 validateConfigs(config);
