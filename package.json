@@ -1,6 +1,6 @@
 {
   "name": "elm-format-download",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Simple downloader for the elm-format binaries",
   "main": "./bin/index.js",
   "scripts": {},
